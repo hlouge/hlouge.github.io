@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-R">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio Personnel</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            line-height: 1.6; 
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1 { color: #333; }
+        a { color: #0077b5; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .links { list-style: none; padding-left: 0; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Votre Nom</h1>
+        <p>Bienvenue sur mon site personnel. Je suis [Votre Rôle, ex: Développeur Web, Étudiant...].</p>
+    </header>
+
+    <main>
+        <h2>À propos de moi</h2>
+        <p>Un petit paragraphe sur moi, mes compétences et mes intérêts professionnels...</p>
+
+        <h2>Mon CV (Option 1 : Lien PDF)</h2>
+        <p>Vous pouvez voir ou télécharger mon CV ici : 
+            <a href="resume.pdf" target="_blank" rel="noopener noreferrer">Télécharger mon CV (PDF)</a>
+        </p>
+
+        <h2>Mon CV (Option 2 : PDF Intégré)</h2>
+        <iframe 
+            src="resume.pdf" 
+            width="100%" 
+            height="600px" 
+            style="border: 1px solid #ddd;">
+        </iframe>
+
+    </main>
+
+    <footer>
+        <h2>Contact & Liens</h2>
+        <ul class="links">
+            <li>Email: <a href="mailto:votre-email@example.com">votre-email@example.com</a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/votre-profil">linkedin.com/in/votre-profil</a></li>
+            <li>GitHub: <a href="https://github.com/votre-username">github.com/votre-username</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
